@@ -5,7 +5,7 @@
     {
         public function testSuma()
         {
-            $calc = new Calculadora(3,4);
+            $calc = new Calculadora(3,5);
             $this->assertEquals(8, $calc->suma());
         }
 
