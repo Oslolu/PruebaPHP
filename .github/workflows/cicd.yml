@@ -1,6 +1,6 @@
 name: For every push
 
-on: [push, issues]
+on: [push]
 
 jobs:
   say-hello:
