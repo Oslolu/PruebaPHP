@@ -1,16 +1,10 @@
 name: For every push
 
-<<<<<<< HEAD
-name: DNI
-
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-=======
-on: [push]
->>>>>>> c3f476b5315f77767558213555680c7404fb763a
 
 jobs:
   ci:
